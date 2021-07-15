@@ -4403,3 +4403,6 @@
 2021-07-15T13:49:30.732797Z [HoneyPotSSHTransport,1927,195.3.147.47] avatar admin logging out
 2021-07-15T13:49:30.733437Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
 2021-07-15T13:49:30.733977Z [HoneyPotSSHTransport,1927,195.3.147.47] Connection lost after 2 seconds
+2021-07-15T14:00:21.905048Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 209.141.54.66:40556 (192.168.9.240:22) [session: 3c1cca3e52b4]
+2021-07-15T14:00:22.073111Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T14:00:22.073871Z [HoneyPotSSHTransport,1928,209.141.54.66] Connection lost after 0 seconds
