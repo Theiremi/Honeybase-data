@@ -3966,3 +3966,6 @@
 2021-07-15T11:38:30.114415Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-512' b'none'
 2021-07-15T11:38:30.115589Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
 2021-07-15T11:38:30.116192Z [HoneyPotSSHTransport,1904,104.244.78.182] Connection lost after 3 seconds
+2021-07-15T11:47:39.799395Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.182.39.88:50120 (192.168.9.240:22) [session: 8f83e4d80259]
+2021-07-15T11:47:39.805195Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2021-07-15T11:47:39.805895Z [HoneyPotSSHTransport,1905,5.182.39.88] Connection lost after 0 seconds
